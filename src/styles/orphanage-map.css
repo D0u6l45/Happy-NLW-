@@ -46,6 +46,10 @@
     font-weight: 800;
 }
 
+#page-map .leaflet-container {
+    z-index: 5;
+}
+
 .create_orphanage{
     background: #15c3d6;
     width: 64px;
@@ -59,8 +63,11 @@
     align-items: center;
     justify-content: center;
     transition: .3s;
+    z-index: 10 ;
 }
 
 .create_orphanage:hover{
     opacity: .5;
 }
+
+
